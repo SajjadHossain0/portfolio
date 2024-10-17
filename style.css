@@ -1,0 +1,286 @@
+
+        /* Enable smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            padding-top: 40px;
+        }
+
+        /* Custom styles for the navbar */
+        .navbar-custom {
+            background-color: #000;
+            /* Black background */
+            color: #fff;
+            /* White text */
+        }
+
+        .navbar-custom .navbar-brand,
+        .navbar-custom .nav-link {
+            color: #fff;
+            /* White text for brand and links */
+        }
+
+        .navbar-custom .nav-link:hover {
+            color: #f39c12;
+            /* Lighter shade on hover */
+        }
+
+
+
+
+
+
+        
+        #intro {
+            background-color: #000;
+            /* Black background */
+            color: #fff;
+            /* White text */
+            padding: 60px 0;
+        }
+
+        .intro-heading {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .highlight {
+            color: #f39c12;
+            /* Highlight color for your name */
+        }
+
+        .intro-subtext {
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: #ddd;
+            /* Light grey subtext for a softer look */
+        }
+
+        .profile-photo {
+            max-width: 100%;
+            border: 5px solid #f39c12;
+            /* Border around the photo to match the highlight */
+            border-radius: 50%;
+            /* Circular image */
+        }
+
+        .btn-outline-light {
+            border: 2px solid #f39c12;
+            /* Matching the highlight color */
+            color: #f39c12;
+            /* Button text color */
+        }
+
+        .btn-outline-light:hover {
+            background-color: #f39c12;
+            /* Highlight color background on hover */
+            color: #000;
+            /* Black text on hover */
+        }
+
+        @media (max-width: 992px) {
+            .intro-heading {
+                text-align: center;
+            }
+
+            .intro-subtext {
+                text-align: center;
+            }
+        }
+
+
+
+
+
+
+
+        
+        #about {
+            background-color: #000;
+            /* Black background */
+        }
+
+        h2 {
+            color: #f39c12;
+            /* Golden text color for headings */
+        }
+
+        .text-light {
+            color: #fff !important;
+        }
+
+        .nav-pills .nav-link {
+            background-color: #333;
+            /* Dark pill background */
+            color: #fff;
+        }
+
+        .nav-pills .nav-link.active {
+            background-color: #f39c12;
+            /* Golden active pill */
+            color: #000;
+        }
+
+        .tab-pane ul {
+            list-style-type: none;
+            /* No bullet points */
+            padding-left: 0;
+        }
+
+        .tab-pane ul li {
+            font-size: 1.1rem;
+            padding: 5px 0;
+        }
+
+        .nav-item .a:hover {
+            color: #f39c12;
+        }
+
+        /* Remove button styling and make it look like text with underline */
+        .nav-pills .custom-tab {
+            background-color: transparent;
+            /* Remove button background */
+            color: #ccc;
+            /* Light gray text */
+            border: none;
+            /* Remove border */
+            border-bottom: 2px solid transparent;
+            /* Invisible underline by default */
+            padding: 5px 15px;
+            /* Add some padding around the text */
+            margin-right: 10px;
+            /* Space between tabs */
+            font-size: 18px;
+            /* Increase font size for better readability */
+            transition: color 0.3s ease, border-bottom-color 0.3s ease;
+            /* Smooth transitions */
+            cursor: pointer;
+            /* Make it look clickable */
+        }
+
+        /* Hover and Focus effect: Underline and change text color */
+        .nav-pills .custom-tab:hover,
+        .nav-pills .custom-tab:focus {
+            color: #fff;
+            /* White text on hover */
+            border-bottom: 2px solid #ccc;
+            /* Gray underline on hover */
+        }
+
+        /* Active state: Change color and underline */
+        .nav-pills .custom-tab.active {
+            color: #f39c12;
+            /* Golden text when active */
+            border-bottom: 2px solid #f39c12;
+            /* Golden underline when active */
+        }
+
+        /* Responsive Styling: Stack on small screens */
+        @media (max-width: 768px) {
+            .nav-pills .custom-tab {
+                display: block;
+                /* Stack tabs vertically */
+                width: 100%;
+                /* Full-width tabs */
+                text-align: left;
+                /* Align text to the left */
+                margin-bottom: 10px;
+                /* Space between tabs */
+            }
+        }
+
+        /* Skills Section Styling */
+        .skills-section {
+            color: #ddd;
+            /* Light gray text */
+            padding: 20px;
+            /* Padding around the section */
+        }
+
+        .skill-category {
+            margin-bottom: 15px;
+            /* Space between skill categories */
+        }
+
+        .skill-category h5 {
+            color: #f39c12;
+            /* Golden color for headings */
+            font-size: 18px;
+            /* Medium-sized headings */
+            margin-bottom: 5px;
+            /* Space below headings */
+            text-transform: uppercase;
+            /* Make headings uppercase for professional look */
+        }
+
+        .skill-category p {
+            font-size: 16px;
+            /* Slightly larger font for descriptions */
+            color: #eee;
+            /* Lighter color for skill descriptions */
+            margin: 0;
+            /* Remove default margins */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .skills-section {
+                padding: 10px;
+                /* Reduce padding on smaller screens */
+            }
+        }
+
+        /* Style for the custom tabs */
+        .custom-tab {
+            background: transparent;
+            border: none;
+            font-size: 16px;
+            color: #fff;
+            /* White text color */
+            padding: 10px 20px;
+            /* Adjust padding for better spacing */
+            border-bottom: 2px solid transparent;
+            /* Underline */
+            transition: border-color 0.3s ease;
+            /* Smooth hover effect */
+        }
+
+        /* Active Tab */
+        .custom-tab.active {
+            border-bottom: 2px solid #f39c12;
+            /* Gold color for active tab underline */
+            color: #f39c12;
+            /* Gold text for active tab */
+        }
+
+        /* Hover Effect */
+        .custom-tab:hover {
+            border-bottom: 2px solid #f39c12;
+            /* Hover underline effect */
+            color: #f39c12;
+            /* Gold text on hover */
+        }
+
+        /* Keep tabs in a row on mobile */
+        .nav-item {
+            display: inline-block;
+            margin: 0 5px;
+            /* Space between tabs */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .custom-tab {
+                font-size: 14px;
+                /* Smaller font on mobile */
+                padding: 8px 10px;
+                /* Adjust padding for smaller screens */
+            }
+        }
