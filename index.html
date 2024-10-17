@@ -12,6 +12,11 @@
 
     <title>Md. Sajjad Hossain</title>
     <style>
+        /* Enable smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             background-color: black;
             color: white;
@@ -44,7 +49,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
         <div class="container-fluid">
-            <a style="font-size: 30px; padding-left: 15px;" class="navbar-brand" href="#"><span
+            <a style="font-size: 25px; padding-left: 15px;" class="navbar-brand" href="#"><span
                     style="color: #f39c12;">Md. Sajjad</span>
                 Hossain</a>
 
@@ -61,19 +66,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#intro">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Service</a>
+                        <a class="nav-link active" aria-current="page" href="#service">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -140,7 +142,7 @@
         }
     </style>
     <section id="intro" class="py-5">
-        <div class="container">
+        <div style="margin: 30px  0px 50px 0px;" class="container">
             <div class="row align-items-center">
                 <!-- Left side: Small Introduction -->
                 <div style="text-align: center;" class="col-lg-6 col-md-12 mb-4 mb-lg-0">
@@ -158,7 +160,6 @@
             </div>
         </div>
     </section>
-
 
     <style>
         #about {
@@ -197,9 +198,157 @@
             font-size: 1.1rem;
             padding: 5px 0;
         }
+
+        .nav-item .a:hover {
+            color: #f39c12;
+        }
+
+        /* Remove button styling and make it look like text with underline */
+        .nav-pills .custom-tab {
+            background-color: transparent;
+            /* Remove button background */
+            color: #ccc;
+            /* Light gray text */
+            border: none;
+            /* Remove border */
+            border-bottom: 2px solid transparent;
+            /* Invisible underline by default */
+            padding: 5px 15px;
+            /* Add some padding around the text */
+            margin-right: 10px;
+            /* Space between tabs */
+            font-size: 18px;
+            /* Increase font size for better readability */
+            transition: color 0.3s ease, border-bottom-color 0.3s ease;
+            /* Smooth transitions */
+            cursor: pointer;
+            /* Make it look clickable */
+        }
+
+        /* Hover and Focus effect: Underline and change text color */
+        .nav-pills .custom-tab:hover,
+        .nav-pills .custom-tab:focus {
+            color: #fff;
+            /* White text on hover */
+            border-bottom: 2px solid #ccc;
+            /* Gray underline on hover */
+        }
+
+        /* Active state: Change color and underline */
+        .nav-pills .custom-tab.active {
+            color: #f39c12;
+            /* Golden text when active */
+            border-bottom: 2px solid #f39c12;
+            /* Golden underline when active */
+        }
+
+        /* Responsive Styling: Stack on small screens */
+        @media (max-width: 768px) {
+            .nav-pills .custom-tab {
+                display: block;
+                /* Stack tabs vertically */
+                width: 100%;
+                /* Full-width tabs */
+                text-align: left;
+                /* Align text to the left */
+                margin-bottom: 10px;
+                /* Space between tabs */
+            }
+        }
+
+        /* Skills Section Styling */
+        .skills-section {
+            color: #ddd;
+            /* Light gray text */
+            padding: 20px;
+            /* Padding around the section */
+        }
+
+        .skill-category {
+            margin-bottom: 15px;
+            /* Space between skill categories */
+        }
+
+        .skill-category h5 {
+            color: #f39c12;
+            /* Golden color for headings */
+            font-size: 18px;
+            /* Medium-sized headings */
+            margin-bottom: 5px;
+            /* Space below headings */
+            text-transform: uppercase;
+            /* Make headings uppercase for professional look */
+        }
+
+        .skill-category p {
+            font-size: 16px;
+            /* Slightly larger font for descriptions */
+            color: #eee;
+            /* Lighter color for skill descriptions */
+            margin: 0;
+            /* Remove default margins */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .skills-section {
+                padding: 10px;
+                /* Reduce padding on smaller screens */
+            }
+        }
+
+        /* Style for the custom tabs */
+        .custom-tab {
+            background: transparent;
+            border: none;
+            font-size: 16px;
+            color: #fff;
+            /* White text color */
+            padding: 10px 20px;
+            /* Adjust padding for better spacing */
+            border-bottom: 2px solid transparent;
+            /* Underline */
+            transition: border-color 0.3s ease;
+            /* Smooth hover effect */
+        }
+
+        /* Active Tab */
+        .custom-tab.active {
+            border-bottom: 2px solid #f39c12;
+            /* Gold color for active tab underline */
+            color: #f39c12;
+            /* Gold text for active tab */
+        }
+
+        /* Hover Effect */
+        .custom-tab:hover {
+            border-bottom: 2px solid #f39c12;
+            /* Hover underline effect */
+            color: #f39c12;
+            /* Gold text on hover */
+        }
+
+        /* Keep tabs in a row on mobile */
+        .nav-item {
+            display: inline-block;
+            margin: 0 5px;
+            /* Space between tabs */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .custom-tab {
+                font-size: 14px;
+                /* Smaller font on mobile */
+                padding: 8px 10px;
+                /* Adjust padding for smaller screens */
+            }
+        }
     </style>
     <section id="about" class="py-5" style="background-color: #000;">
         <div class="container">
+            <h1 align="center" style="font-size: 50px; margin: 20px;">About</h1>
+
             <div class="row align-items-center">
 
                 <!-- Left side: Profile Photo -->
@@ -211,46 +360,83 @@
                 <!-- Right side: Objective and Tabs -->
                 <div class="col-lg-8 col-md-12">
 
-                    <h3 class="text-muted">Aspiring Java Developer with a strong foundation in Spring Boot and web application development. Seeking an 
+                    <h3 class="text-muted">Aspiring Java Developer with a strong foundation in Spring Boot and web
+                        application development. Seeking an
                         opportunity to apply my programming skills and contribute to innovative projects.</h3>
 
                     <!-- Tab Links -->
-                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                        <li style="margin: 5px;" class="nav-item" role="presentation">
-                            <button class="nav-link active" id="skills-tab" data-bs-toggle="pill"
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="active custom-tab" id="skills-tab" data-bs-toggle="pill"
                                 data-bs-target="#skills" type="button" role="tab" aria-controls="skills"
-                                aria-selected="true">Skills</button>
+                                aria-selected="true">
+                                Skills
+                            </button>
                         </li>
-                        <li style="margin: 5px;" class="nav-item" role="presentation">
-                            <button class="nav-link" id="education-tab" data-bs-toggle="pill"
+                        <li class="nav-item" role="presentation">
+                            <button class="custom-tab" id="education-tab" data-bs-toggle="pill"
                                 data-bs-target="#education" type="button" role="tab" aria-controls="education"
-                                aria-selected="false">Education</button>
+                                aria-selected="false">
+                                Education
+                            </button>
                         </li>
-                        <li style="margin: 5px;" class="nav-item" role="presentation">
-                            <button class="nav-link" id="experience-tab" data-bs-toggle="pill"
+                        <li class="nav-item" role="presentation">
+                            <button class="custom-tab" id="experience-tab" data-bs-toggle="pill"
                                 data-bs-target="#experience" type="button" role="tab" aria-controls="experience"
-                                aria-selected="false">Experience</button>
+                                aria-selected="false">
+                                Experience
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="custom-tab" id="projects-tab" data-bs-toggle="pill"
+                                data-bs-target="#projects" type="button" role="tab" aria-controls="projects"
+                                aria-selected="false">
+                                Projects
+                            </button>
                         </li>
                     </ul>
+
+
 
                     <!-- Tab Content -->
                     <div class="tab-content text-light" id="pills-tabContent">
                         <!-- Skills Section -->
                         <div class="tab-pane fade show active" id="skills" role="tabpanel" aria-labelledby="skills-tab">
-                            <ul>
-                                <li>Programming Languages : Java, C++, Js</li>
-                                <li>Framework : Spring Boot, Spring MVC, Spring Security, Swing</li>
-                                <li>Web Technology : HTML, CSS, Bootstrap, Thymeleaf</li>
-                                <li>Database : MySQL</li>
-                                <li>Script Tools : Git, Maven</li>
-                            </ul>
+                            <div class="skills-section">
+                                <div class="skill-category">
+                                    <h5>Programming Languages</h5>
+                                    <p>Java, C++, JavaScript</p>
+                                </div>
+                                <div class="skill-category">
+                                    <h5>Frameworks & Libraries</h5>
+                                    <p>Spring Boot, Spring MVC, Spring Security, Swing</p>
+                                </div>
+                                <div class="skill-category">
+                                    <h5>Web Technologies</h5>
+                                    <p>HTML, CSS, Bootstrap, Thymeleaf</p>
+                                </div>
+                                <div class="skill-category">
+                                    <h5>Databases</h5>
+                                    <p>MySQL</p>
+                                </div>
+                                <div class="skill-category">
+                                    <h5>Version Control & Build Tools</h5>
+                                    <p>Git, Maven</p>
+                                </div>
+                            </div>
                         </div>
+
 
                         <!-- Education Section -->
                         <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
                             <ul>
-                                <li><h5>Bachelor of Science (B.Sc.) in Computer Science and Engineering (CSE) (Ongoing)</h5></li>
-                                <li><h5>HSC, Dania University College, GPA: 4.75/5.0</h5></li>
+                                <li>
+                                    <h5>Bachelor of Science (B.Sc.) in Computer Science and Engineering (CSE) (Ongoing)
+                                    </h5>
+                                </li>
+                                <li>
+                                    <h5>HSC, Dania University College, GPA: 4.75/5.0</h5>
+                                </li>
                             </ul>
                         </div>
 
@@ -261,12 +447,30 @@
                                 <li>IT Manager, <b>Third Space Gym</b>, December 2023 - June 2024</li>
                             </ul>
                         </div>
+
+                        <!-- Projects Section -->
+                        <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+                            <ul>
+                                <li><a href="https://github.com/SajjadHossain0/e_commrce_webapp">E-commerce web
+                                        application</a></li>
+                                <li><a href="https://github.com/SajjadHossain0/gym-management-system">Gym Management
+                                        System</a></li>
+                                <li><a href="https://github.com/SajjadHossain0/collection_web_application">Collections
+                                        holder web-application</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
             </div>
         </div>
     </section>
+
+    <section id="service" class="py-5" style="background-color: #000;">
+        </section>
+
+    <section id="contact" class="py-5" style="background-color: #000;">
+        </section>
 
 
 
