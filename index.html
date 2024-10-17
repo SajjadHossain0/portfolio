@@ -160,6 +160,117 @@
     </section>
 
 
+    <style>
+        #about {
+            background-color: #000;
+            /* Black background */
+        }
+
+        h2 {
+            color: #f39c12;
+            /* Golden text color for headings */
+        }
+
+        .text-light {
+            color: #fff !important;
+        }
+
+        .nav-pills .nav-link {
+            background-color: #333;
+            /* Dark pill background */
+            color: #fff;
+        }
+
+        .nav-pills .nav-link.active {
+            background-color: #f39c12;
+            /* Golden active pill */
+            color: #000;
+        }
+
+        .tab-pane ul {
+            list-style-type: none;
+            /* No bullet points */
+            padding-left: 0;
+        }
+
+        .tab-pane ul li {
+            font-size: 1.1rem;
+            padding: 5px 0;
+        }
+    </style>
+    <section id="about" class="py-5" style="background-color: #000;">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Left side: Profile Photo -->
+                <div class="col-lg-4 col-md-12 text-center mb-4">
+                    <img src="sajjad.jpg" alt="Md. Sajjad Hossain" class="img-fluid rounded-3"
+                        style="width: 100%; max-width: 300px;">
+                </div>
+
+                <!-- Right side: Objective and Tabs -->
+                <div class="col-lg-8 col-md-12">
+
+                    <h3 class="text-muted">A passionate Java Spring Boot developer focused on creating scalable, secure,
+                        and efficient web applications. Dedicated to learning and advancing my skills in software
+                        development.</h3>
+
+                    <!-- Tab Links -->
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li style="margin: 5px;" class="nav-item" role="presentation">
+                            <button class="nav-link active" id="skills-tab" data-bs-toggle="pill"
+                                data-bs-target="#skills" type="button" role="tab" aria-controls="skills"
+                                aria-selected="true">Skills</button>
+                        </li>
+                        <li style="margin: 5px;" class="nav-item" role="presentation">
+                            <button class="nav-link" id="education-tab" data-bs-toggle="pill"
+                                data-bs-target="#education" type="button" role="tab" aria-controls="education"
+                                aria-selected="false">Education</button>
+                        </li>
+                        <li style="margin: 5px;" class="nav-item" role="presentation">
+                            <button class="nav-link" id="experience-tab" data-bs-toggle="pill"
+                                data-bs-target="#experience" type="button" role="tab" aria-controls="experience"
+                                aria-selected="false">Experience</button>
+                        </li>
+                    </ul>
+
+                    <!-- Tab Content -->
+                    <div class="tab-content text-light" id="pills-tabContent">
+                        <!-- Skills Section -->
+                        <div class="tab-pane fade show active" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                            <ul>
+                                <li>Programming Languages : Java, C++, Js</li>
+                                <li>Framework : Spring Boot, Spring MVC, Spring Security, Swing</li>
+                                <li>Web Technology : HTML, CSS, Bootstrap, Thymeleaf</li>
+                                <li>Database : MySQL</li>
+                                <li>Script Tools : Git, Maven</li>
+                            </ul>
+                        </div>
+
+                        <!-- Education Section -->
+                        <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+                            <ul>
+                                <li><h5>Bachelor of Science (B.Sc.) in Computer Science and Engineering (CSE) (Ongoing)</h5></li>
+                                <li><h5>HSC, Dania University College, GPA: 4.75/5.0</h5></li>
+                            </ul>
+                        </div>
+
+                        <!-- Experience Section -->
+                        <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                            <ul>
+                                <li>Java Developer Intern, <b>Itransition</b>, July 2024 - September 2024</li>
+                                <li>IT Manager, <b>Third Space Gym</b>, December 2023 - June 2024</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
 
 
 
