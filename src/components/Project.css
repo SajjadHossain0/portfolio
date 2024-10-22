@@ -1,0 +1,41 @@
+/* Container for the slider */
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Hide overflow so cards are partially off-screen */
+    padding: 20px 0; /* Add padding to center buttons vertically */
+}
+
+
+/* Each card has a fixed width to prevent shrinking */
+.slider-card {
+    min-width: 300px; /* This keeps the card from shrinking */
+    flex: 0 0 auto; /* Prevent shrinking and stretching */
+}
+
+/* Buttons for sliding left and right */
+.slide-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+.slide-btn.left {
+    left: 10px;
+}
+
+.slide-btn.right {
+    right: 10px;
+}
+
+/* Optional hover effect for buttons */
+.slide-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}

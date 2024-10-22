@@ -1,15 +1,15 @@
-.home-container {
+.skills-container {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.home-icons a {
+.skills-icons a {
     font-size: 24px;
     color: #000;
     text-decoration: none;
 }
 
-.home-image img {
+.skills-image img {
     width: 100%;
     height: auto;
 }

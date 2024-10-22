@@ -1,0 +1,14 @@
+/* Card container */
+.card-container {
+    display: flex;
+    gap: 20px; /* Add space between cards */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth;
+    padding: 10px;
+    scrollbar-width: none; /* Hide scrollbar on Firefox */
+}
+
+/* Hide the scrollbar on Chrome, Safari, and Edge */
+.card-container::-webkit-scrollbar {
+    display: none;
+}
