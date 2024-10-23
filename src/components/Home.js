@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css'
+import profile_pic from './img/sajjad.jpg'
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {RiInstagramFill} from "react-icons/ri";
@@ -8,7 +9,7 @@ import {FaFacebook} from "react-icons/fa";
 
 export default function Home() {
     return (
-        <div className="container home-container">
+        <div id="home" className="container home-container">
             <div className="row">
 
                 <div className="col-md-1 d-flex flex-column home-icons">
@@ -48,7 +49,7 @@ export default function Home() {
 
                 <div className="col-md-5 home-image">
                     <img
-                        src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmFuaGh1NWdmbGlycTUybHI4dm04d3BhbmxjeHF2dmJnYWZyMHFteCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif"/>
+                        src={profile_pic} alt="sajjad"/>
                 </div>
             </div>
 

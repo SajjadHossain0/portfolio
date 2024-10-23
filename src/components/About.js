@@ -11,7 +11,7 @@ export default function About() {
                 {/* About Image */}
                 <div className="col-md-6 about-img">
                     <img
-                        src="your-image-url.jpg"
+                        src="https://scontent.fdac5-1.fna.fbcdn.net/v/t39.30808-6/449311238_2064280463968254_6880502970315492370_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeH51UVczVAl7284WoyGRQm5f6eGQ3z79t5_p4ZDfPv23ifIJ5D2BqjsWSFkxa6_7ZImTr0_WHq-89uKONyNnU5x&_nc_ohc=mpVnqkStxx4Q7kNvgEcAAQU&_nc_zt=23&_nc_ht=scontent.fdac5-1.fna&_nc_gid=ACOhjwp7AVS5CA8v7GRvz7l&oh=00_AYAZT_l5nB8r6Bj7piHGPA6w5ws4B1bRl8RRSZCxd555lg&oe=671E92F0"
                         alt="About Me"
                         className="img-fluid rounded"
                     />
@@ -33,7 +33,7 @@ export default function About() {
                     {/* Button to CV */}
                     <Button
                         color="primary"
-                        href="/path-to-your-CV.pdf"
+                        href="https://drive.google.com/file/d/11xScXHwswx2zYsezlvRXDMXzuwlonu6A/view?usp=drive_link"
                         target="_blank"
                     >
                         Download My CV

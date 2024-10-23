@@ -22,7 +22,7 @@ export default function Project() {
 
     return (
 
-        <div className="slider-container">
+        <div id="projects" className="slider-container">
             <h2 align="center">Projects</h2>
             
             {/* Left Slide Button */}

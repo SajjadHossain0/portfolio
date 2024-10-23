@@ -37,7 +37,7 @@ export default function Skills() {
                 {/* Image Section */}
                 <div className="col-md-6 skills-image text-center">
                     <img
-                        src="https://img.freepik.com/free-photo/portrait-man-cartoon-style_23-2151133939.jpg?t=st=1729619124~exp=1729622724~hmac=19322814b56d5025acbc41c8320b7d771413a03868294161afaedf6453ccfbd1&w=740"
+                        src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmFuaGh1NWdmbGlycTUybHI4dm04d3BhbmxjeHF2dmJnYWZyMHFteCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif"
                         alt="Skills Representation"
                         className="img-fluid"
                     />
