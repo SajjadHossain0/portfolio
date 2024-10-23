@@ -1,44 +1,48 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Skills.css'
+import './Skills.css';
 
 export default function Skills() {
 
     const skills = [
         { name: "Java", level: "90%" },
         { name: "Spring Boot", level: "85%" },
-        { name: "React.js", level: "75%" },
-        { name: "JavaScript", level: "70%" },
-        { name: "HTML/CSS", level: "90%" },
-        { name: "MySQL", level: "80%" },
+        { name: "Thymeleaf", level: "80%" },
+        { name: "HTML/CSS", level: "85%" },
+        { name: "JavaScript", level: "75%" },
+        { name: "React.js", level: "60%" },
+        { name: "Git", level: "80%" },
+        { name: "MySQL", level: "85%" },
     ];
 
     return (
-        <div className="container skills-container">
-            <div className="row">
+        <div id="skills" className="container skills-container">
+            <h2 className="text-center mb-4">My Skills</h2>
+            <div className="row align-items-center">
 
+                {/* Skills Progress Bars */}
                 <div className="col-md-6 skills-text">
-                    <div className="skills-container">
-                        <h2 align="center">My Skills</h2>
-                        {skills.map((skill, index) => (
-                            <div key={index} className="skill">
-                                <h5>{skill.name}</h5>
-                                <div className="progress">
-                                    <div className="progress-bar" style={{width: skill.level}}>
-                                        {skill.level}
-                                    </div>
+                    {skills.map((skill, index) => (
+                        <div key={index} className="skill mb-4">
+                            <h5>{skill.name}</h5>
+                            <div className="progress">
+                                <div className="progress-bar" style={{ width: skill.level }}>
+                                    {skill.level}
                                 </div>
                             </div>
-                        ))}
-                    </div>
+                        </div>
+                    ))}
                 </div>
 
-                <div className="col-md-6 skills-image">
+                {/* Image Section */}
+                <div className="col-md-6 skills-image text-center">
                     <img
-                        src="https://img.freepik.com/free-photo/portrait-man-cartoon-style_23-2151133939.jpg?t=st=1729619124~exp=1729622724~hmac=19322814b56d5025acbc41c8320b7d771413a03868294161afaedf6453ccfbd1&w=740"/>
+                        src="https://img.freepik.com/free-photo/portrait-man-cartoon-style_23-2151133939.jpg?t=st=1729619124~exp=1729622724~hmac=19322814b56d5025acbc41c8320b7d771413a03868294161afaedf6453ccfbd1&w=740"
+                        alt="Skills Representation"
+                        className="img-fluid"
+                    />
                 </div>
             </div>
-
         </div>
-    )
+    );
 }

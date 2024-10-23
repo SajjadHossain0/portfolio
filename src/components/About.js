@@ -1,31 +1,45 @@
 import React from "react";
-import {Button} from "reactstrap";
+import { Button } from "reactstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './About.css'
+import './About.css';
 
 export default function About() {
     return (
-        <div className="container about-container">
-            <div className="row">
+        <div id="about" className="container about-container">
+            <div className="row align-items-center">
 
+                {/* About Image */}
                 <div className="col-md-6 about-img">
-                    <img src="data:image/jpeg;base64,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" />
+                    <img
+                        src="your-image-url.jpg"
+                        alt="About Me"
+                        className="img-fluid rounded"
+                    />
                 </div>
 
+                {/* About Text Content */}
                 <div className="col-md-6 about-text">
-                    <h2 align="center">About me</h2>
-                    <h1>Hello, I'm</h1>
-                    <h1>Md. Sajjad Hossain</h1>
-                    <h5>A Java Spring boot developer</h5>
-                    <p>Aspiring Java Developer with a strong foundation in Spring Boot and web application
-                        development.
-                        Seeking an
-                        opportunity to apply my programming skills and contribute to innovative projects.</p>
-                    <Button>Download CV</Button>
+                    <h2>About Me</h2>
+                    <p>
+                        Hi, I'm Md. Sajjad Hossain, a passionate Java Spring Boot developer with a strong foundation in e-commerce
+                        application development. I have experience working on multiple web apps, and I am proficient in Java, Spring Boot, and
+                        frontend technologies like React and Thymeleaf.
+                    </p>
+                    <p>
+                        My goal is to build efficient, scalable applications that provide excellent user experiences. I'm currently
+                        learning React.js to enhance my full-stack development skills.
+                    </p>
+
+                    {/* Button to CV */}
+                    <Button
+                        color="primary"
+                        href="/path-to-your-CV.pdf"
+                        target="_blank"
+                    >
+                        Download My CV
+                    </Button>
                 </div>
             </div>
-
         </div>
-
     );
 }

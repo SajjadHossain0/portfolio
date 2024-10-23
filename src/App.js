@@ -1,16 +1,19 @@
 import logo from './logo.svg';
+import React from "react";
 import './App.css';
 import Home from "./components/Home";
 import Project from "./components/Project";
-import React from "react";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
+
 
 function App() {
     return (
         <div>
+            <Header/>
             <Home/>
             <About/>
             <Skills/>

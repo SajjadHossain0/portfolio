@@ -1,13 +1,12 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css'
-import {Button} from "reactstrap";
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {RiInstagramFill} from "react-icons/ri";
 import {FaFacebook} from "react-icons/fa";
 
-function Home() {
+export default function Home() {
     return (
         <div className="container home-container">
             <div className="row">
@@ -32,14 +31,19 @@ function Home() {
                 </div>
 
                 <div className="col-md-6 home-text">
-                    <h1>Hello, I'm</h1>
-                    <h1>Md. Sajjad Hossain</h1>
+                    <h1>Hi, I'm Md. Sajjad Hossain</h1>
                     <h5>A Java Spring boot developer</h5>
-                    <p>Aspiring Java Developer with a strong foundation in Spring Boot and web application
-                        development.
-                        Seeking an
-                        opportunity to apply my programming skills and contribute to innovative projects.</p>
-                    <Button>Contact Me</Button>
+                    <p>I'm a passionate Java Spring Boot developer and Computer Science student with a strong foundation
+                        in web development, database management, and software engineering. I specialize in building
+                        robust and scalable web applications, and I'm on a journey to become a full-stack developer by
+                        mastering technologies like React.js.</p>
+                    <p>Explore my projects, skills, and experiences below, and feel free to get in touch for
+                        collaboration or job opportunities!</p>
+
+                    <a href="#about" className="btn">Learn More About Me</a>
+                    <a href="https://drive.google.com/file/d/11xScXHwswx2zYsezlvRXDMXzuwlonu6A/view?usp=drive_link"
+                       target="_blank" download className="btn btn-primary">Download My CV</a>
+
                 </div>
 
                 <div className="col-md-5 home-image">
@@ -51,5 +55,3 @@ function Home() {
         </div>
     );
 }
-
-export default Home;

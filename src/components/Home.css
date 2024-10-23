@@ -1,15 +1,41 @@
 .home-container {
     margin-top: 50px;
-    margin-bottom: 50px;
+}
+
+.home-icons {
+    align-items: center;
 }
 
 .home-icons a {
     font-size: 24px;
-    color: #000;
-    text-decoration: none;
+    color: #343a40;
+    transition: color 0.3s ease;
+}
+
+.home-icons a:hover {
+    color: #007bff;
+}
+
+.home-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .home-image img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    border-radius: 8px;
+}
+
+/* For smaller screens, make the icons side by side */
+@media (max-width: 768px) {
+    .home-icons {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .home-icons div {
+        padding: 0;
+    }
 }
