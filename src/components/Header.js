@@ -18,19 +18,19 @@ export default function Header(args) {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ms-auto" navbar>
                         <NavItem>
-                            <NavLink className="nav-link" href="#home">Home</NavLink>
+                            <NavLink className="nav-link" href="/">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" href="#about">About</NavLink>
+                            <NavLink className="nav-link" href="/about">About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" href="#skills">Skills</NavLink>
+                            <NavLink className="nav-link" href="/skills">Skills</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" href="#projects">Projects</NavLink>
+                            <NavLink className="nav-link" href="/projects">Projects</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" href="#contact">Contact</NavLink>
+                            <NavLink className="nav-link" href="/contact">Contact</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
