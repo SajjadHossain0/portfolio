@@ -15,25 +15,11 @@ function App() {
         <BrowserRouter>
             <div className="app-container">
                 <Header/>
-                <Routes>
-                    <Route path="/" element={<Home/>} />
-                </Routes>
-                <Routes>
-                    <Route path="/about" element={<About/>} />
-                </Routes>
-                <Routes>
-                    <Route path="/skills" element={<Skills/>} />
-                </Routes>
-                <Routes>
-                    <Route path="/projects" element={<Project/>} />
-                </Routes>
-                <Routes>
-                    <Route path="/contact" element={<Contact/>} />
-                </Routes>
-
-
-
-
+                <Home/>
+                <About/>
+                <Skills/>
+                <Project/>
+                <Contact />
                 <Footer/>
             </div>
         </BrowserRouter>
