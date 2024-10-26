@@ -1,0 +1,11 @@
+.link-container a{
+    text-decoration: none;
+    color: #333333;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.link-container a:hover{
+    color: #000000;
+}
