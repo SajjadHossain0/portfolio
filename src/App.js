@@ -14,16 +14,16 @@ function App() {
     return (
             <div className="app-container">
                 {/*portfolio 2.0*/}
-                {/*<Portfolio/>*/}
+                <Portfolio/>
 
                 {/*portfolio*/}
-                <Header/>
+    {/*<Header/>
                 <Home/>
                 <About/>
                 <Skills/>
                 <Project/>
                 <Contact />
-                <Footer/>
+                <Footer/>*/}
             </div>
     );
 }
