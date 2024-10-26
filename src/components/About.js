@@ -33,7 +33,7 @@ export default function About() {
                     {/* Button to CV */}
                     <Button
                         color="primary"
-                        href="https://drive.google.com/file/d/11xScXHwswx2zYsezlvRXDMXzuwlonu6A/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/1UGdKRMHHNmJatbWuU2uhR32seUn4npmO/view?usp=drive_link"
                         target="_blank"
                     >
                         Download My CV

@@ -42,7 +42,7 @@ export default function Home() {
                         collaboration or job opportunities!</p>
 
                     <a href="#about" className="btn">Learn More About Me</a>
-                    <a href="https://drive.google.com/file/d/11xScXHwswx2zYsezlvRXDMXzuwlonu6A/view?usp=drive_link"
+                    <a href="https://drive.google.com/file/d/1UGdKRMHHNmJatbWuU2uhR32seUn4npmO/view?usp=drive_link"
                        target="_blank" download className="btn btn-primary">Download My CV</a>
 
                 </div>
