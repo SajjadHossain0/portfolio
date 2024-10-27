@@ -1,5 +1,7 @@
 import React from "react";
 import {Button, Form, FormGroup, Input, Label} from "reactstrap";
+import {FaFacebook, FaGithub, FaLinkedin} from "react-icons/fa";
+import {RiInstagramFill} from "react-icons/ri";
 
 export default function PortfolioContact() {
     return (
@@ -53,6 +55,32 @@ export default function PortfolioContact() {
                             Submit
                         </Button>
                     </Form>
+                </div>
+
+                <div className="py-4">
+                    <div className="container">
+                        <div className="text-center mb-3">
+                            <p className="footer-text mb-0">Or contact me through my social media</p>
+                        </div>
+                        <div className="social-icons d-flex justify-content-center">
+                            <a href="https://www.linkedin.com/in/md-sajjad-hossain-b28154234" rel="noreferrer"
+                               target="_blank" className="footer-icon mx-2">
+                                <FaLinkedin/>
+                            </a>
+                            <a href="https://www.github.com/sajjadhossain0" rel="noreferrer" target="_blank"
+                               className="footer-icon mx-2">
+                                <FaGithub/>
+                            </a>
+                            <a href="https://www.instagram.com/s.a.j.j.a.d.h.o.s.s.a.i.n" rel="noreferrer"
+                               target="_blank" className="footer-icon mx-2">
+                                <RiInstagramFill/>
+                            </a>
+                            <a href="https://www.facebook.com/sajjad.hossain.8082" rel="noreferrer" target="_blank"
+                               className="footer-icon mx-2">
+                                <FaFacebook/>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
