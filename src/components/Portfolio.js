@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {Card} from "reactstrap";
 import './Portfolio.css'
 import {MdOutlineEmail} from "react-icons/md";
@@ -15,9 +15,24 @@ import PortfolioHome from "./PortfolioHome";
 import PortfolioProfile from "./PortfolioProfile";
 
 export default function Portfolio() {
+    const [activeComponent, setActiveComponent] = useState("About");
+    const renderContent = () => {
+        switch (activeComponent) {
+            case "About":
+                return <PortfolioAbout />;
+            case "Skills":
+                return <PortfolioSkills />;
+            case "Project":
+                return <PortfolioProject />;
+            case "Contact":
+                return <PortfolioContact />;
+            default:
+                return <PortfolioAbout />;
+        }
+    };
 
     return (
-        <BrowserRouter>
+        //<BrowserRouter>
             <div id="home" className="container home-container">
                 <div className="row">
 
@@ -27,6 +42,7 @@ export default function Portfolio() {
 
                     <div className="col-md-8">
                         <Card>
+                            {/*
                             <div className="main">
                                 <PortfolioHeader/>
                                 <Routes>
@@ -43,11 +59,16 @@ export default function Portfolio() {
                                 </Routes>
 
                             </div>
+*/}
+                            <div className="main">
+                                <PortfolioHeader setActiveComponent={setActiveComponent}/>
+                                {renderContent()}
+                            </div>
                         </Card>
                     </div>
                 </div>
 
             </div>
-        </BrowserRouter>
+        //</BrowserRouter>
     )
 }
