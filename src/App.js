@@ -7,24 +7,22 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Portfolio from "./components/Portfolio";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 
 function App() {
     return (
+        <BrowserRouter>
             <div className="app-container">
-                {/*portfolio 2.0*/}
-                <Portfolio/>
-
-                {/*portfolio*/}
-                {/*<Header/>
+                <Header/>
                 <Home/>
                 <About/>
                 <Skills/>
                 <Project/>
                 <Contact />
-                <Footer/>*/}
+                <Footer/>
             </div>
+        </BrowserRouter>
     );
 }
 
