@@ -17,7 +17,7 @@ function App() {
                 <Portfolio/>
 
                 {/*portfolio*/}
-    {/*<Header/>
+            {/*<Header/>
                 <Home/>
                 <About/>
                 <Skills/>
