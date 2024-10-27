@@ -11,7 +11,8 @@ export default function Contact() {
 
                 <div className="col-md-6 contact-img">
                     <img
-                        src="https://www.shutterstock.com/image-vector/smiling-young-man-headphones-microphone-600nw-2213661961.jpg"/>
+                        src="https://www.shutterstock.com/image-vector/smiling-young-man-headphones-microphone-600nw-2213661961.jpg"
+                    alt="contact"/>
                 </div>
 
                 <div className="col-md-6 contact-form">

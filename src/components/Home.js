@@ -15,19 +15,19 @@ export default function Home() {
                 <div className="col-md-1 d-flex flex-column home-icons">
                     <div className="p-2">
                         <a href="https://www.linkedin.com/in/md-sajjad-hossain-b28154234"
-                           target="_blank"><FaLinkedin/></a>
+                           rel="noreferrer" target="_blank"><FaLinkedin/></a>
                     </div>
                     <div className="p-2">
                         <a href="https://www.github.com/sajjadhossain0"
-                           target="_blank"><FaGithub/></a>
+                           rel="noreferrer" target="_blank"><FaGithub/></a>
                     </div>
                     <div className="p-2">
                         <a href="https://www.instagram.com/s.a.j.j.a.d.h.o.s.s.a.i.n"
-                           target="_blank"><RiInstagramFill/></a>
+                           rel="noreferrer" target="_blank"><RiInstagramFill/></a>
                     </div>
                     <div className="p-2">
                         <a href="https://www.facebook.com/sajjad.hossain.8082"
-                           target="_blank"><FaFacebook/></a>
+                           rel="noreferrer" target="_blank"><FaFacebook/></a>
                     </div>
                 </div>
 

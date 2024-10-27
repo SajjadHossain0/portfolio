@@ -6,8 +6,7 @@ import {IoCallOutline} from "react-icons/io5";
 import {FaFacebook, FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa";
 
 export default function PortfolioProfile() {
-    return (
-        <div>
+    return (<div>
             <Card>
                 <div style={{padding: 5}} className="profile">
                     <div align="center" className="container">
@@ -25,37 +24,37 @@ export default function PortfolioProfile() {
                         <div align="left" className="profile-contact">
                             <div style={{fontSize: 25}}>
                                 <MdOutlineEmail/><span>    </span>
-                                <a style={{textDecoration: "none", fontSize: 20, color: "black"}}
-                                >sajjad.tech.eng@gmail.com</a>
+                                <span style={{textDecoration: "none", fontSize: 20, color: "black"}}
+                                >sajjad.tech.eng@gmail.com</span>
                             </div>
                             <div style={{fontSize: 25}}>
                                 <IoCallOutline/><span>    </span>
-                                <a style={{textDecoration: "none", fontSize: 20, color: "black"}}
-                                >+880 1738082631</a>
+                                <span style={{textDecoration: "none", fontSize: 20, color: "black"}}
+                                >+880 1738082631</span>
                             </div>
                             <div style={{fontSize: 25}}>
                                 <FaLinkedin/><span>    </span>
                                 <a style={{textDecoration: "none", fontSize: 20, color: "black"}}
-                                   href="https:\\www.linkedin.com/in/sajjadhossain00" target="_blank"
+                                   href="https:\\www.linkedin.com/in/sajjadhossain00" rel="noreferrer" target="_blank"
                                 >sajjadhossain00</a>
                             </div>
                             <div style={{fontSize: 25}}>
                                 <FaGithub/><span>    </span>
                                 <a style={{textDecoration: "none", fontSize: 20, color: "black"}}
-                                   href="https:\\www.github.com/sajjadhossain0" target="_blank"
+                                   href="https:\\www.github.com/sajjadhossain0" rel="noreferrer" target="_blank"
                                 >sajjadhossain0</a>
                             </div>
                             <div style={{fontSize: 25}}>
                                 <FaFacebook/><span>    </span>
                                 <a style={{textDecoration: "none", fontSize: 20, color: "black"}}
-                                   href="https:\\www.facebook.com/sajjad.hossain.8082" target="_blank"
+                                   href="https:\\www.facebook.com/sajjad.hossain.8082" rel="noreferrer" target="_blank"
                                 >sajjad.hossain.8082</a>
                             </div>
                             <div style={{fontSize: 25}}>
                                 <FaInstagram/><span>    </span>
                                 <a style={{textDecoration: "none", fontSize: 20, color: "black"}}
                                    href="https:\\www.instagram.com/s.a.j.j.a.d.h.o.s.s.a.i.n"
-                                   target="_blank"
+                                   rel="noreferrer" target="_blank"
                                 >s.a.j.j.a.d.h.o.s.s.a.i.n</a>
                             </div>
 
@@ -64,6 +63,5 @@ export default function PortfolioProfile() {
                     </div>
                 </div>
             </Card>
-        </div>
-    )
+        </div>)
 }
