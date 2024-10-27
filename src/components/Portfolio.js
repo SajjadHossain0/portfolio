@@ -31,6 +31,7 @@ export default function Portfolio() {
         }
     };
 
+
     return (
         //<BrowserRouter>
             <div id="home" className="container home-container">

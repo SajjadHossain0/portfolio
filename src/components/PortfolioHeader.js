@@ -2,6 +2,8 @@ import React from "react";
 import './PortfolioHeader.css'
 
 export default function PortfolioHeader({setActiveComponent}) {
+
+
     return (
         /*
                 <div className="container d-flex justify-content-between align-items-center">
