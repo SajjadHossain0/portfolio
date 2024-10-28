@@ -1,7 +1,7 @@
 import React from "react";
 import {Button} from "reactstrap";
 
-export default function PortfolioAbout() {
+export default function PortfolioAbout({cvLink}) {
     return (
         <div id="about" className="container about-container">
             <div className="row align-items-center">
@@ -25,7 +25,7 @@ export default function PortfolioAbout() {
                     <div align="right">
                         <Button
                             color="primary"
-                            href="https://drive.google.com/file/d/1UGdKRMHHNmJatbWuU2uhR32seUn4npmO/view?usp=drive_link"
+                            href={cvLink}
                             target="_blank">
                             Download My CV
                         </Button>
