@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import './PortfolioHeader.css'
 
 export default function PortfolioHeader({setActiveComponent}) {
@@ -16,9 +16,9 @@ export default function PortfolioHeader({setActiveComponent}) {
                     </div>
                 </div>
         */
-        <div className="container d-flex justify-content-between align-items-center">
+        <div className="container  justify-content-between align-items-center">
             <h1 className="header-title"></h1>
-            <div style={{padding: 10}} className="link-container">
+            <div align="center" style={{padding: 10}} className="link-container">
                 <a onClick={() => setActiveComponent("About")}>About</a>
                 <a onClick={() => setActiveComponent("Skills")}>Skills</a>
                 <a onClick={() => setActiveComponent("Project")}>Projects</a>
