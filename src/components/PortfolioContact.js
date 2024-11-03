@@ -1,6 +1,6 @@
-import React from "react";
+import React, {useState} from "react";
 import {Button, Form, FormGroup, Input, Label} from "reactstrap";
-import {FaFacebook, FaGithub, FaLinkedin} from "react-icons/fa";
+import {FaFacebook, FaLinkedin} from "react-icons/fa";
 import {RiInstagramFill} from "react-icons/ri";
 
 export default function PortfolioContact() {
@@ -11,7 +11,7 @@ export default function PortfolioContact() {
                 <div className="col-md-6 contact-img">
                     <img
                         src="https://www.shutterstock.com/image-vector/smiling-young-man-headphones-microphone-600nw-2213661961.jpg"
-                    alt="contact"/>
+                        alt="contact"/>
                 </div>
 
                 <div className="col-md-6 contact-form">
@@ -45,8 +45,8 @@ export default function PortfolioContact() {
                                 Write message
                             </Label>
                             <Input
-                                id="exampleText"
-                                name="text"
+                                id="exampleMessage"
+                                name="message"
                                 placeholder="Write your message..."
                                 type="textarea"
                             />
@@ -55,6 +55,7 @@ export default function PortfolioContact() {
                             Submit
                         </Button>
                     </Form>
+
                 </div>
 
                 <div className="py-4">
@@ -66,10 +67,6 @@ export default function PortfolioContact() {
                             <a href="https://www.linkedin.com/in/md-sajjad-hossain-b28154234" rel="noreferrer"
                                target="_blank" className="footer-icon mx-2">
                                 <FaLinkedin/>
-                            </a>
-                            <a href="https://www.github.com/sajjadhossain0" rel="noreferrer" target="_blank"
-                               className="footer-icon mx-2">
-                                <FaGithub/>
                             </a>
                             <a href="https://www.instagram.com/s.a.j.j.a.d.h.o.s.s.a.i.n" rel="noreferrer"
                                target="_blank" className="footer-icon mx-2">

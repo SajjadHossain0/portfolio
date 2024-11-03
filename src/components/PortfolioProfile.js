@@ -18,7 +18,7 @@ export default function PortfolioProfile() {
                         />
                         <div className="profile-text">
                             <h1><strong>Md. Sajjad Hossain</strong></h1>
-                            <h6>Full Stack Developer (Spring Boot | React)</h6>
+                            <h6>Java Developer (Spring Boot | React)</h6>
                         </div>
                         <hr></hr>
                         <div align="left" className="profile-contact">

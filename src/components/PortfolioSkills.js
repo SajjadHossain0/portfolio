@@ -1,8 +1,15 @@
 import React from "react";
 import { FaJava, FaJsSquare, FaReact, FaGitAlt, FaGithub, FaHtml5, FaCss3, FaBootstrap } from "react-icons/fa";
 import { PiFileCpp } from "react-icons/pi";
-import { SiIntellijidea, SiSpringboot, SiVisualstudiocode, SiPostman } from "react-icons/si";
+import {
+    SiIntellijidea,
+    SiVisualstudiocode,
+    SiPostman,
+    SiSpringsecurity,
+    SiApachemaven, SiSpring, SiJetbrains
+} from "react-icons/si";
 import "./PortfolioSkills.css";
+import {BiLogoSpringBoot} from "react-icons/bi";
 
 export default function PortfolioSkills() {
     return (
@@ -30,7 +37,7 @@ export default function PortfolioSkills() {
             <div className="skill-section">
                 <strong className="skill-title">Backend</strong>
                 <div className="skill-item">
-                    <SiSpringboot className="skill-icon" />
+                    <BiLogoSpringBoot  className="skill-icon" />
                     <span>Spring Boot</span>
                 </div>
                 <div className="skill-item">
@@ -42,11 +49,11 @@ export default function PortfolioSkills() {
                     <span>Spring MVC</span>
                 </div>
                 <div className="skill-item">
-                    <FaJava className="skill-icon" />
+                    <SiSpringsecurity  className="skill-icon" />
                     <span>Spring Security</span>
                 </div>
                 <div className="skill-item">
-                    <FaJava className="skill-icon" />
+                    <SiApachemaven  className="skill-icon" />
                     <span>Maven</span>
                 </div>
             </div>
@@ -71,7 +78,7 @@ export default function PortfolioSkills() {
                     <span>Bootstrap</span>
                 </div>
                 <div className="skill-item">
-                    <FaJsSquare className="skill-icon" />
+                    <SiSpring  className="skill-icon" />
                     <span>Thymeleaf</span>
                 </div>
             </div>
@@ -99,6 +106,10 @@ export default function PortfolioSkills() {
                 <div className="skill-item">
                     <SiVisualstudiocode className="skill-icon" />
                     <span>Visual Studio Code</span>
+                </div>
+                <div className="skill-item">
+                    <SiJetbrains  className="skill-icon" />
+                    <span>Webstrom</span>
                 </div>
                 <div className="skill-item">
                     <SiPostman className="skill-icon" />
