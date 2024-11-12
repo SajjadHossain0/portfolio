@@ -20,14 +20,6 @@ export default function PortfolioProfile() {
                             <h1><strong>Md. Sajjad Hossain</strong></h1>
                             <h6>Java Developer (Spring Boot | React)</h6>
                         </div>
-                        {/*<div align="center"><MdGroups3/> profile view <span>0</span></div>*/}
-                        <div align="center">
-                            <a href="https://visitcount.itsvg.in">
-                                <img src="https://visitcount.itsvg.in/api?id=sajjadhossain0&icon=0&color=0"
-                                     alt="Profile views counter"/>
-                            </a>
-                        </div>
-
                         <hr></hr>
                         <div align="left" className="profile-contact">
                             <div style={{fontSize: 25}}>
