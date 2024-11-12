@@ -1,7 +1,7 @@
 import React from "react";
 import {Card} from "reactstrap";
 import profile_pic from "./img/sajjad.jpg";
-import {MdOutlineEmail} from "react-icons/md";
+import {MdGroups3, MdOutlineEmail} from "react-icons/md";
 import {IoCallOutline} from "react-icons/io5";
 import {FaFacebook, FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa";
 
@@ -20,6 +20,14 @@ export default function PortfolioProfile() {
                             <h1><strong>Md. Sajjad Hossain</strong></h1>
                             <h6>Java Developer (Spring Boot | React)</h6>
                         </div>
+                        {/*<div align="center"><MdGroups3/> profile view <span>0</span></div>*/}
+                        <div align="center">
+                            <a href="https://visitcount.itsvg.in">
+                                <img src="https://visitcount.itsvg.in/api?id=sajjadhossain0&icon=0&color=0"
+                                     alt="Profile views counter"/>
+                            </a>
+                        </div>
+
                         <hr></hr>
                         <div align="left" className="profile-contact">
                             <div style={{fontSize: 25}}>
@@ -63,5 +71,5 @@ export default function PortfolioProfile() {
                     </div>
                 </div>
             </Card>
-        </div>)
+    </div>)
 }
