@@ -1,30 +1,49 @@
-/* Card container */
-.card-container {
+/* Styling for the product card container */
+.product-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Allows card to adapt to container */
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 15px;
     display: flex;
-    gap: 20px; /* Add space between cards */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-behavior: smooth;
-    padding: 10px;
-    scrollbar-width: none; /* Hide scrollbar on Firefox */
-}
-
-/* Hide the scrollbar on Chrome, Safari, and Edge */
-.card-container::-webkit-scrollbar {
-    display: none;
-}
-.project-card {
-    width: 300px;
-    padding: 20px;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Ensure proper spacing */
     text-align: center;
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    margin: 10px;
+    box-sizing: border-box;
 }
 
-.project-image {
-    width: 100%;
-    height: auto;
+/* Hover effect */
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the product image */
+.product-card img {
+    width: 100%; /* Full width of the container */
+    height: 200px; /* Set a fixed height for uniformity */
     border-radius: 10px;
+    margin-bottom: 15px;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* Title styling */
+.product-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Product description styling */
+.product-card p {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 15px;
+    line-height: 1.4;
 }
 
 .project-link {
@@ -35,4 +54,13 @@
 
 .project-link:hover {
     text-decoration: underline;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .product-card {
+        max-width: 90%; /* Ensure card doesn't shrink too much */
+        margin: 10px auto;
+    }
 }

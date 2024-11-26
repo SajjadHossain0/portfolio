@@ -1,7 +1,7 @@
 import React from "react";
 import './ProjectCard.css'
 
-function ProjectCard({title,description,link,imgLink}) {
+function ProjectCard(props) {
     const truncateText = (text, maxLength) => {
         if (text.length > maxLength) {
             return text.slice(0, maxLength) + '...';
@@ -11,13 +11,22 @@ function ProjectCard({title,description,link,imgLink}) {
 
     return (
         <div>
-            <div className="project-card">
-                <img src={imgLink} alt={title} className="project-image"/>
-                <h3>{title}</h3>
-                <p>{truncateText(description,50)}</p>
-                <a href={link} target="_blank" rel="noopener noreferrer" className="project-link">View
-                    Project</a>
-            </div>
+            <a style={{textDecoration: "none", color: "black"}}>
+                <div className="product-card">
+                    <div>
+                        <img
+                            src={props.imgLink}
+                            alt={props.title}
+                        />
+                        <h3>{props.title}</h3>
+                        <p>{truncateText(props.description, 50)}</p>
+                        <a href={props.link} target="_blank" rel="noopener noreferrer" className="project-link">View
+                            Project</a>
+                    </div>
+
+
+                </div>
+            </a>
         </div>
     );
 }
