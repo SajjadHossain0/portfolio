@@ -1,13 +1,7 @@
 import React from "react";
 import './App.css';
-import Home from "./components/Home";
-import Project from "./components/Project";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
+import Portfolio1 from "./components/Portfolio1";
 
 
 function App() {
@@ -16,24 +10,9 @@ function App() {
 
                 <Portfolio/>
 
-                {/*<Header/>
-                <Home/>
-                <About/>
-                <Skills/>
-                <Project/>
-                <Contact />
-                <Footer/>*/}
+                {/*<Portfolio1/>*/}
             </div>
     );
 }
 
 export default App;
-
-/*
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-*/

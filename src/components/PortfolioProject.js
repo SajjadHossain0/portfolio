@@ -18,6 +18,11 @@ export default function PortfolioProject() {
                             description="Developed a modern e-commerce website for a fashion brand, featuring a seamless shopping experience with product categories, dynamic pricing, and a secure checkout process. Built using Spring Boot, React, and MySQL, the platform includes admin management for products, orders, and shipping."
                             link="https://sajjad-ecommerce-ten.vercel.app"/>
                         <ProjectCard
+                            imgLink="https://github.com/user-attachments/assets/1b85851c-8b93-4101-8352-a240765a9c75"
+                            title="Business development"
+                            description="A Business development wesite for your Business where you can showcase your business as well as post blog's too."
+                            link="https://github.com/SajjadHossain0/business-web.git"/>
+                        <ProjectCard
                             imgLink="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnzcxH_JZuqaCQ3Bam1fqN4slz24i5TKFKsA&s"
                             title="Gym Management System"
                             description="A web-based system to manage gym memberships, member details, and payment history, enhancing the administrative efficiency of gym operations.  "
