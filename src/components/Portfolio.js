@@ -7,6 +7,7 @@ import PortfolioSkills from "./PortfolioSkills";
 import PortfolioProject from "./PortfolioProject";
 import PortfolioContact from "./PortfolioContact";
 import PortfolioProfile from "./PortfolioProfile";
+import PortfolioTools from "./PortfolioTools";
 
 export default function Portfolio() {
     const [activeComponent, setActiveComponent] = useState("About");
@@ -18,6 +19,8 @@ export default function Portfolio() {
                 return <PortfolioSkills />;
             case "Project":
                 return <PortfolioProject />;
+            case "Tools":
+                return <PortfolioTools/>;
             case "Contact":
                 return <PortfolioContact />;
             default:
@@ -27,7 +30,6 @@ export default function Portfolio() {
 
 
     return (
-        //<BrowserRouter>
             <div id="home" className="container home-container">
                 <div className="row">
 
@@ -37,24 +39,6 @@ export default function Portfolio() {
 
                     <div className="col-md-8">
                         <Card>
-                            {/*
-                            <div className="main">
-                                <PortfolioHeader/>
-                                <Routes>
-                                    <Route path="/" element={<PortfolioAbout/>} />
-                                </Routes>
-                                <Routes>
-                                    <Route path="/skills" element={<PortfolioSkills/>} />
-                                </Routes>
-                                <Routes>
-                                    <Route path="/project" element={<PortfolioProject/>} />
-                                </Routes>
-                                <Routes>
-                                    <Route path="/contact" element={<PortfolioContact/>} />
-                                </Routes>
-
-                            </div>
-*/}
                             <div className="main">
                                 <PortfolioHeader setActiveComponent={setActiveComponent}/>
                                 {renderContent()}
@@ -64,6 +48,5 @@ export default function Portfolio() {
                 </div>
 
             </div>
-        //</BrowserRouter>
     )
 }

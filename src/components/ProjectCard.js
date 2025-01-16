@@ -19,9 +19,8 @@ function ProjectCard(props) {
                             alt={props.title}
                         />
                         <h3>{props.title}</h3>
-                        <p>{truncateText(props.description, 50)}</p>
-                        <a href={props.link} target="_blank" rel="noopener noreferrer" className="project-link">View
-                            Project</a>
+                        <p>{truncateText(props.description, 100)}</p>
+                        <a href={props.link} target="_blank" rel="noopener noreferrer" className="project-link">{props.linkText}</a>
                     </div>
 
 

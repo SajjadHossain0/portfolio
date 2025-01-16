@@ -1,12 +1,32 @@
+.link-container {
+    display: flex;
+    justify-content: center; /* Centers the links horizontally */
+    flex-wrap: wrap; /* Ensures links wrap if absolutely necessary */
+    gap: 16px; /* Adds spacing between links */
+    padding: 10px;
+}
 
-.link-container a{
+.link-container a {
     text-decoration: none;
     color: #424242;
-    margin-left: 8px;
-    margin-right: 8px;
     font-size: 18px;
     font-weight: bold;
+    transition: color 0.3s, font-size 0.3s;
+    white-space: nowrap; /* Prevents the links from breaking into multiple lines */
 }
-.link-container a:hover{
+
+.link-container a:hover {
     color: #000000;
+}
+
+@media (max-width: 768px) {
+    .link-container a {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .link-container a {
+        font-size: 14px; /* Smaller font size for mobile */
+    }
 }
