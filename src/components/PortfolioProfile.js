@@ -3,7 +3,7 @@ import {Card} from "reactstrap";
 import profile_pic from "./img/sajjad.jpg";
 import {MdGroups3, MdOutlineEmail} from "react-icons/md";
 import {IoCallOutline} from "react-icons/io5";
-import {FaFacebook, FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa";
+import {FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaYoutube} from "react-icons/fa";
 
 export default function PortfolioProfile() {
     return (<div>
@@ -37,6 +37,12 @@ export default function PortfolioProfile() {
                                 <a style={{textDecoration: "none", fontSize: 20, color: "black"}}
                                    href="https:\\www.linkedin.com/in/sajjadhossain00" rel="noreferrer" target="_blank"
                                 >sajjadhossain00</a>
+                            </div>
+                            <div style={{fontSize: 25}}>
+                                <FaYoutube/><span>    </span>
+                                <a style={{textDecoration: "none", fontSize: 20, color: "black"}}
+                                   href="https://www.youtube.com/@0sajjadhossain0" rel="noreferrer" target="_blank"
+                                >Sajjad Hossain</a>
                             </div>
                             <div style={{fontSize: 25}}>
                                 <FaGithub/><span>    </span>
