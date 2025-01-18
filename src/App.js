@@ -10,7 +10,6 @@ function App() {
 
                 <Portfolio/>
 
-                {/*<Portfolio1/>*/}
             </div>
     );
 }

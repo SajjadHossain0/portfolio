@@ -5,7 +5,7 @@ export default function PortfolioTools(){
 
     return(
         <div className="container">
-            <h2 align="center">Projects</h2>
+            <h2 align="center">Tools</h2>
             <div className="card-container">
 
 

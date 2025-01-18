@@ -118,9 +118,13 @@ export default function PortfolioContact() {
                                 required
                             />
                         </FormGroup>
-                        <Button outline type="submit" disabled={isSubmitting}>
-                            {isSubmitting ? "Sending..." : "Submit"}
-                        </Button>
+
+                        <div align="center">
+                            <Button outline type="submit" disabled={isSubmitting}>
+                                {isSubmitting ? "Sending..." : "Submit"}
+                            </Button>
+                        </div>
+
                     </Form>
 
                 </div>

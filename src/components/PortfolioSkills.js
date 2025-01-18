@@ -16,6 +16,7 @@ export default function PortfolioSkills() {
         <div className="skills-container">
             <h2 align="center">Skills</h2>
 
+
             {/* Languages Section */}
             <div className="skill-section">
                 <strong className="skill-title">Languages</strong>
