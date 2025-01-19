@@ -25,11 +25,11 @@ export default function PortfolioProfile() {
                         <div align="left" className="profile-contact">
                             <div style={{fontSize: 25}}>
                                 <MdOutlineEmail/><span>    </span>
-                                <span>sajjad.tech.eng@gmail.com</span>
+                                <span><a href="mailto:sajjad.tech.eng@gmail.com">sajjad.tech.eng@gmail.com</a></span>
                             </div>
                             <div style={{fontSize: 25}}>
                                 <IoCallOutline/><span>    </span>
-                                <span>+880 1738082631</span>
+                                <span><a href="tel:01738082631">+880 1738082631</a></span>
                             </div>
                             <div style={{fontSize: 25}}>
                                 <FaLinkedin/><span>    </span>
