@@ -30,6 +30,12 @@ export default function PortfolioTools(){
                             description="A professional and user-friendly web-based Age Calculator that calculates a user's precise age in years, months, and days based on their selected birthdate. This tool is ideal for quickly determining ages for various purposes, such as forms, documentation, or personal curiosity."
                             link="https://sajjadhossain0.github.io/Age-calculator/"
                             linkText="Try it now"/>
+                        <ProjectCard
+                            imgLink="https://github.com/user-attachments/assets/4d5aef1c-277c-4119-9cad-7c55548a42a8"
+                            title="Pomodoro Timer"
+                            description="A simple Pomodoro Timer app that works on a every browser. A time management technique developed by Francesco Cirillo."
+                            link="https://sajjadhossain0.github.io/Pomodoro-Timer/"
+                            linkText="Try it now"/>
 
                     </div>
                 </div>
