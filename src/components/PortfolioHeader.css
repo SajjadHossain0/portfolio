@@ -13,6 +13,7 @@
     font-weight: bold;
     transition: color 0.3s, font-size 0.3s;
     white-space: nowrap; /* Prevents the links from breaking into multiple lines */
+    cursor: pointer;
 }
 
 .link-container a:hover {
