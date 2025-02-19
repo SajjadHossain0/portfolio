@@ -6,10 +6,11 @@ import {
     SiVisualstudiocode,
     SiPostman,
     SiSpringsecurity,
-    SiApachemaven, SiSpring, SiJetbrains
+    SiApachemaven, SiSpring, SiJetbrains, SiMysql
 } from "react-icons/si";
 import "./PortfolioSkills.css";
 import {BiLogoSpringBoot} from "react-icons/bi";
+import { DiRedis } from "react-icons/di";
 
 export default function PortfolioSkills() {
     return (
@@ -65,9 +66,24 @@ export default function PortfolioSkills() {
                 </div>
 
                 <div className="skill">
+                    {/* Databse Section */}
+                    <div className="skill-section">
+                        <strong className="skill-title">Database</strong>
+                        <div className="skill-item">
+                            <SiMysql className="skill-icon"/>
+                            <span>MySQL</span>
+                        </div>
+                        {/*<div className="skill-item">*/}
+                        {/*    <DiRedis  className="skill-icon"/>*/}
+                        {/*    <span>Redis</span>*/}
+                        {/*</div>*/}
+                    </div>
+                </div>
+
+                <div className="skill">
                     {/* Frontend Section */}
                     <div className="skill-section">
-                        <strong className="skill-title">Frontend</strong>
+                    <strong className="skill-title">Frontend</strong>
                         <div className="skill-item">
                             <FaReact className="skill-icon"/>
                             <span>React</span>
