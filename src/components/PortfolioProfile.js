@@ -1,13 +1,14 @@
 import React from "react";
 import {Card} from "reactstrap";
 import profile_pic from "./img/sajjad.jpg";
-import {MdGroups3, MdOutlineEmail} from "react-icons/md";
+import {MdOutlineEmail} from "react-icons/md";
 import {IoCallOutline} from "react-icons/io5";
 import {FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaYoutube} from "react-icons/fa";
 import './PortfolioProfile.css'
 
 export default function PortfolioProfile() {
-    return (<div>
+    return (
+        <div>
             <Card className="profile">
                 <div style={{padding: 5}} >
                     <div align="center" className="container">
@@ -15,8 +16,7 @@ export default function PortfolioProfile() {
                             style={{margin: 5}}
                             className="rounded-circle img-fluid profile-img"
                             alt="Profile"
-                            src={profile_pic}   // Ensure square dimensions for source
-                        />
+                            src={profile_pic}/>
                         <div className="profile-text">
                             <h1><strong>Md. Sajjad Hossain</strong></h1>
                             <h6>Java Developer (Spring Boot | React)</h6>
@@ -63,5 +63,6 @@ export default function PortfolioProfile() {
                     </div>
                 </div>
             </Card>
-    </div>)
+    </div>
+    )
 }
