@@ -1,12 +1,12 @@
 import React from "react";
 import {FaJava, FaJsSquare, FaReact, FaGitAlt, FaGithub, FaHtml5, FaCss3, FaBootstrap} from "react-icons/fa";
-import {PiFileCpp} from "react-icons/pi";
+import {PiFileC, PiFileCpp} from "react-icons/pi";
 import {
     SiIntellijidea,
     SiVisualstudiocode,
     SiPostman,
     SiSpringsecurity,
-    SiApachemaven, SiSpring, SiJetbrains, SiMysql
+    SiApachemaven, SiSpring, SiJetbrains, SiMysql, SiDocker
 } from "react-icons/si";
 import "./PortfolioSkills.css";
 import {BiLogoSpringBoot} from "react-icons/bi";
@@ -30,6 +30,10 @@ export default function PortfolioSkills() {
                         <div className="skill-item">
                             <PiFileCpp className="skill-icon"/>
                             <span>C++</span>
+                        </div>
+                        <div className="skill-item">
+                            <PiFileC className="skill-icon"/>
+                            <span>C</span>
                         </div>
                         <div className="skill-item">
                             <FaJsSquare className="skill-icon"/>
@@ -110,7 +114,7 @@ export default function PortfolioSkills() {
                 <div className="skill">
                     {/* Version Control Section */}
                     <div className="skill-section">
-                        <strong className="skill-title">Version Control</strong>
+                        <strong className="skill-title">Tools</strong>
                         <div className="skill-item">
                             <FaGitAlt className="skill-icon"/>
                             <span>Git</span>
@@ -119,13 +123,21 @@ export default function PortfolioSkills() {
                             <FaGithub className="skill-icon"/>
                             <span>GitHub</span>
                         </div>
+                        <div className="skill-item">
+                            <SiPostman className="skill-icon"/>
+                            <span>Postman</span>
+                        </div>
+                        <div className="skill-item">
+                            <SiDocker className="skill-icon"/>
+                            <span>Docker</span>
+                        </div>
                     </div>
                 </div>
 
                 <div className="skill">
                     {/* Dev Tools Section */}
                     <div className="skill-section">
-                        <strong className="skill-title">Dev Tools</strong>
+                    <strong className="skill-title">Tools</strong>
                         <div className="skill-item">
                             <SiIntellijidea className="skill-icon"/>
                             <span>IntelliJ IDEA</span>
@@ -137,10 +149,6 @@ export default function PortfolioSkills() {
                         <div className="skill-item">
                             <SiJetbrains className="skill-icon"/>
                             <span>Webstrom</span>
-                        </div>
-                        <div className="skill-item">
-                            <SiPostman className="skill-icon"/>
-                            <span>Postman</span>
                         </div>
                     </div>
                 </div>
