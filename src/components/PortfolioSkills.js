@@ -137,7 +137,7 @@ export default function PortfolioSkills() {
                 <div className="skill">
                     {/* Dev Tools Section */}
                     <div className="skill-section">
-                    <strong className="skill-title">Tools</strong>
+                    <strong className="skill-title">Platform</strong>
                         <div className="skill-item">
                             <SiIntellijidea className="skill-icon"/>
                             <span>IntelliJ IDEA</span>
