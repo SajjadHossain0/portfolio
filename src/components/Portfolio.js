@@ -14,7 +14,7 @@ export default function Portfolio() {
     const renderContent = () => {
         switch (activeComponent) {
             case "About":
-                return <PortfolioAbout cvLink="https://drive.google.com/file/d/12zwOncna4-dqWeUSDsvFfJ9SRqhYxfUO/view?usp=drive_link" />;
+                return <PortfolioAbout cvLink="https://drive.google.com/file/d/1VHY39jn2bhRGK2ezNXyIavoJRWqPqFbW/view?usp=sharing" />;
             case "Skills":
                 return <PortfolioSkills />;
             case "Project":
