@@ -22,7 +22,7 @@ export default function PortfolioProject() {
                             imgLink="https://github.com/user-attachments/assets/1b85851c-8b93-4101-8352-a240765a9c75"
                             title="Business development"
                             description="A Business development wesite for your Business where you can showcase your business as well as post blog's too."
-                            link="https://github.com/SajjadHossain0/business-web.git"
+                            link="https://sajjad-business-web.vercel.app/"
                             linkText="View Project"/>
                         <ProjectCard
                             imgLink="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnzcxH_JZuqaCQ3Bam1fqN4slz24i5TKFKsA&s"
