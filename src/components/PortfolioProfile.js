@@ -5,6 +5,7 @@ import {MdOutlineEmail} from "react-icons/md";
 import {IoCallOutline} from "react-icons/io5";
 import {FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaYoutube} from "react-icons/fa";
 import './PortfolioProfile.css'
+import {BsThreadsFill} from "react-icons/bs";
 
 export default function PortfolioProfile() {
     return (
@@ -54,6 +55,12 @@ export default function PortfolioProfile() {
                             <div style={{fontSize: 25}}>
                                 <FaInstagram/><span>    </span>
                                 <a href="https:\\www.instagram.com/s.a.j.j.a.d.h.o.s.s.a.i.n"
+                                   rel="noreferrer" target="_blank"
+                                >s.a.j.j.a.d.h.o.s.s.a.i.n</a>
+                            </div>
+                            <div style={{fontSize: 25}}>
+                                <BsThreadsFill /><span>    </span>
+                                <a href="https://www.threads.net/@s.a.j.j.a.d.h.o.s.s.a.i.n"
                                    rel="noreferrer" target="_blank"
                                 >s.a.j.j.a.d.h.o.s.s.a.i.n</a>
                             </div>
