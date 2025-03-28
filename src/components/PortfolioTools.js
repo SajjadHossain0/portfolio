@@ -35,6 +35,12 @@ export default function PortfolioTools(){
                             description="A professional and user-friendly web-based Age Calculator that calculates a user's precise age in years, months, and days based on their selected birthdate. This tool is ideal for quickly determining ages for various purposes, such as forms, documentation, or personal curiosity."
                             link="https://sajjadhossain0.github.io/Age-calculator/"
                             linkText="Try it now"/>
+                        <ProjectCard
+                            imgLink="https://github.com/user-attachments/assets/0d5ce8b1-febc-4748-9b4a-8eb152cf7c52"
+                            title="Tasbih"
+                            description="This is a simple tasbih counter."
+                            link="https://sajjadhossain0.github.io/tasbih/"
+                            linkText="Try it now"/>
 
 
                     </div>
