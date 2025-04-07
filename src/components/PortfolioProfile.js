@@ -13,11 +13,12 @@ export default function PortfolioProfile() {
             <Card className="profile">
                 <div style={{padding: 5}} >
                     <div align="center" className="container">
-                        <img
-                            style={{margin: 5}}
-                            className="rounded-circle img-fluid profile-img"
-                            alt="Profile"
-                            src={profile_pic}/>
+                        <div className="gradient-border">
+                            <img
+                                className="rounded-circle img-fluid profile-img"
+                                alt="Profile"
+                                src={profile_pic}/>
+                        </div>
                         <div className="profile-text">
                             <h1><strong>Md. Sajjad Hossain</strong></h1>
                             <h6>Java Developer (Spring Boot | React)</h6>

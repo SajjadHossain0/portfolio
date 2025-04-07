@@ -16,7 +16,7 @@ export default function PortfolioProject() {
                             imgLink="https://github.com/user-attachments/assets/06feabf3-0084-47d9-8058-7203a40a3691"
                             title="Fashion E-commerce"
                             description="Developed a modern e-commerce website for a fashion brand, featuring a seamless shopping experience with product categories, dynamic pricing, and a secure checkout process. Built using Spring Boot, React, and MySQL, the platform includes admin management for products, orders, and shipping."
-                            link="https://sajjad-ecommerce-ten.vercel.app"
+                            link="https://github.com/SajjadHossain0/fashion_e_commerce-backend"
                             linkText="View Project"/>
                         <ProjectCard
                             imgLink="https://github.com/user-attachments/assets/1b85851c-8b93-4101-8352-a240765a9c75"

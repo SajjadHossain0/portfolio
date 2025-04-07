@@ -2,6 +2,22 @@
     background-color: #ffffff;
 }
 
+.gradient-border {
+    display: inline-block;
+    padding: 5px; /* space between image and gradient border */
+    border-radius: 50%;
+    background: linear-gradient(135deg, #fd9016, #ffb326); /* customize the gradient */
+}
+
+.profile-img {
+    border-radius: 50%;
+    background-color: #ffffff; /* creates separation from border */
+    display: block;
+    width: 250px; /* adjust as needed */
+    height: 250px; /* adjust as needed */
+    object-fit: cover;
+}
+
 .profile-text, .profile-contact{
     color: #000000;
 }
