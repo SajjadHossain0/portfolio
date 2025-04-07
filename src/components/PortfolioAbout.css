@@ -4,7 +4,7 @@
     justify-content: space-between;
 }
 
-.cv-download-btn {
+.about-heading .cv-download-btn {
     background-color: #28a745; /* Professional blue */
     color: white;
     border: none;
@@ -16,7 +16,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.cv-download-btn:hover {
+.about-heading .cv-download-btn:hover {
     background-color: #2a9741;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(11, 60, 7, 0.2);

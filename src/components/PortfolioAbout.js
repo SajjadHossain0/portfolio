@@ -21,8 +21,7 @@ export default function PortfolioAbout({cvLink}) {
         } ,
 
     ];
-
-const workExperienceData = [
+    const workExperienceData = [
         {
             title: "Java Developer",
             status: "Internship",
@@ -39,9 +38,9 @@ const workExperienceData = [
 
                 <div className="about-text">
                     <div className="about-heading">
-                        <h2 align="center">About Me</h2>
-                        {/* Button to CV */}
-                        <div align="right">
+                        <h2>About Me</h2>
+
+                        <div>
                             <Button
                                 className="cv-download-btn"
                                 href={cvLink}
